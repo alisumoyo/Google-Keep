@@ -1,0 +1,271 @@
+/* left nav section css */
+.Left-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.Left-nav .keep-logo {
+  width: 43px;
+  height: 40px;
+  /* padding-right: 2px; */
+}
+.Left-nav p {
+  color: rgb(87, 85, 85);
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  /* line-height: 24px; */
+  padding-left: 8px;
+  position: relative;
+  /* top: -1.5px; */
+  /* vertical-align: middle; */
+}
+/* search Nav css */
+.search-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  left: 50px;
+}
+.search-part {
+  display: flex;
+  width: 70%;
+  /* box-shadow: 0px 1px 1.5px 1px rgba(128, 128, 128, 0.288); */
+  border-radius: 8px;
+  background-color: #f1f3f4;
+}
+.search-part input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #f1f3f4;
+}
+.search-part input:focus {
+  outline: none;
+}
+.icon-part {
+  display: flex;
+  padding-right: 18px;
+}
+/* last nav css */
+
+.Last-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone-container {
+  position: relative;
+  margin-right: 10px; /* Adjust the spacing between icons */
+}
+
+.icone-container .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -60px; /* Center the tooltip horizontally */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.icone-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+/* siders icons css */
+
+.sider-icons {
+  /* background-color: red; */
+  width: 90px;
+  height: 100%;
+  /* background-color: blue; */
+  box-shadow: 5px 5px 20px 0px rgba(58, 58, 58, 0.192);
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.sider-icons:hover{
+  width: 368px;
+  
+  
+}
+/* body section css */
+
+.body-part {
+  width: 100%;
+  height: 165px;
+  /* background-color: red; */
+  /* border: 5px solid black; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  padding-top: 30px;
+  /* flex-direction: column; */
+}
+.body-innerpart {
+ 
+  width: 45%;
+  padding: 12px 13px;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.4);
+  /* display: none; */
+  margin-left: 15%;
+}
+
+.notes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+.notes .note-list{
+  border: 2px solid #0000003b;
+  width: 55%;
+  border-radius: 18px;
+  padding: 15px 0px 0px 15px;
+  background-color: white;
+  margin-left: 55px;
+  height: 14vh;
+}
+
+.body-first-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.note-pics{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30px;
+}
+
+.note-pics img{
+  width: 20px;
+  align-items: baseline;
+  display: flex;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+
+.body-first-input .pin-icon {
+  padding: 5px;
+  width: 36px;
+  height: 33px;
+  border-radius: 50%;
+}
+.body-first-input .pin-icon:hover {
+  background-color: #0000004a;
+}
+.body-first-input input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: none;
+  font-size: 16px;
+  background-color: #80808000;
+}
+.body-first-input input:focus {
+  outline: none;
+}
+.second-input input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #ffffff1f;
+}
+.second-input input:focus {
+  outline: none;
+}
+
+.bodyicon-img{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+.bodyicons-part {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  width: 100%;
+  gap: 5px;
+}
+
+.inputIcons{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.T-Block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.T-Block-ICONS{
+  display: flex;
+}
+.T-Block button{
+  padding:10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.bodyicons-part button {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 5vh;
+  margin-top: 20px;
+}
+.bodyicons-part button:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.body-part .inputsec-part {
+  width: 45%;
+  height: 50px;
+  display: flex;
+  border-radius: 7px;
+ 
+}
+.inputsec-part .inputs {
+  width: 100%;
+  height: 100%;
+}
+.inputsec-part .inputs input {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.inputsec-part .inputs input:focus {
+ outline: none;
+}
+.inputs-icons{
+  display: flex;
+}

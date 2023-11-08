@@ -1,0 +1,16 @@
+/* navbar css */
+.navbar {
+  width: 98%;
+  height: 8vh;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: 1fr 5fr 0.8fr;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+  padding: 5px;
+}
+.section {
+  /* background-color: aqua; */
+  height: 92vh;
+  padding:  0px;
+  display: flex;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar icons css */
+.Icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.Icons img {
+  color: #5f6368;
+}
+.Icons:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+/* side bar icons css */
+.siders-icons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-left: 19px;
+}
+.siders-icons:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+  border-radius: 0 30px 30px 0px;
+}
+.siders-icons .icons-sider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.siders-icons .icons-sider:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+.siders-icons p {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* body part icons css */
+
+.body-part-icons {
+  padding: 5px;
+  /* color: aqua; */
+  /* background-color: red; */
+}
+.body-part-icons img {
+  width: 25px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 5px;
+}
+.body-part-icons img:hover {
+  background-color: rgba(55, 58, 61, 0.199);
+}
+
+/* InputAtoms css */
+.InputAtoms {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  padding: 0 5px;
+}
